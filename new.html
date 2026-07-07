@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
+        body{background:#f5f7fa;color:#222;padding:40px max(20px, calc(50% - 500px))}
+        .container{max-width:900px;margin:0 auto}
+        .avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:3px solid #409eff}
+        h1{font-size:28px;margin-bottom:8px}
+        .desc{color:#666;font-size:16px;margin-bottom:25px}
+        .links{display:flex;gap:12px;flex-wrap-wrap;margin:20px 0}
+        .links a{padding:9px 18px;background:#409eff;color:#fff;border-radius:6px;text-decoration:none}
+        .links a:hover{background:#337ecc}
+        section{margin:35px 0}
+        h2{border-left:4px solid #409eff;padding-left:10px;margin-bottom:15px}
+        p{line-height:1.7;color:#333}
+        footer{margin-top:60px;padding-top:20px;border-top:1px solid #eee;color:#999;font-size:14px}
+    </style>
+</head>
+<body>
+<div class="container">
+    <img class="avatar" src="https://picsum.photos/id/659550/200/200" alt="头像">
+    <h1>你的姓名</h1>
+    <div class="desc">个人简介 | 爱好者 | 学习者</div>
+
+    <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">博客</a>
+        <a href="#">作品集</a>
+        <a href="#">联系我</a>
+    </div>
+
+    <section>
+        <h2>关于我</h2>
+        <p>这里填写自我介绍，擅长技能、兴趣爱好、学习经历、职业方向等内容。</p>
+    </section>
+
+    <section>
+        <h2>项目作品</h2>
+        <p>项目一、项目二、小工具、设计作品、代码案例都可以写在这里。</p>
+    </section>
+
+    <section>
+        <h2>联系方式</h2>
+        <p>邮箱：xxx@xxx.com<br>微信：xxxxxxx</p>
+    </section>
+
+    <footer>© 2026 个人主页 All Rights Reserved</footer>
+</div>
+</body>
+</html>
